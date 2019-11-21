@@ -1,0 +1,13 @@
+body{
+    background-color: slategray;
+}
+.row{
+    background-color: tan;
+    margin: 50px;
+    display: flex;
+}
+input{
+    width:320px;
+    height: 20px;
+    
+}
