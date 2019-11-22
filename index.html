@@ -16,32 +16,52 @@
 
   <body>
    
-    <main>
       
 
-      <!-- form section -->
-      <section class="search" id="search">
+      <!-- search section -->
+     
         <div class="container container--lg-width">
           <div class="section-heading">
             <h3 class="section-heading__title">GeoSearch App</h3>
           </div>
-          <form action="#" class="job__form">
-            <div>
-              <input type="text" name="name" class="form__input" placeholder="Please Enter The Name of the place" required>
-            </div>
-            <br>
-            <button class="search__btn">Search</button>
-          </form>
+          <div class="search">
+            <form action="#" class="search__form">
+              <div>
+                <input type="text" name="name" class="search__input" placeholder="Please Enter The Name of the place" required>
+                <button class="search__btn">Search</button>
+              </div>
+              
+             
+            </form>
+          </div>
+         
+        
+          <!-- map section -->
+        <section class="view_map">
+  
+        </section>
+  
+          <!-- conversion section -->
+          <div class="conversion">
+            <form action="#" class="convert__form">
+              <div>
+                <input type="text" name="name" id="Fahrenheit__input" class="convert__input" placeholder="Enter Fahrenheit value" >
+                <button id="convertToCelsius"  class="convert__btn">convert to celsius</button>
+              </div>
+              <br>
+              <div>
+                <input type="text" name="name" id="Celsius__input" class="convert__input" placeholder="Enter celsius value" >
+                <button class="convert__btn">convert to Fahrenheit</button>
+              </div>
+              
+          </div>
+  
+    
+       
         </div>
-
-      </section>
-      <section class="view_map">
-
-      </section>
 
      
 
-    </main>
    
 
     <script src="assets/js/main.js"></script>
